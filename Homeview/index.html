@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- seo -->
+        <meta name="author" content="저자이름" />
+        <meta name="description" content="디저트 사이트입니다" />
+        <meta name="keywords" content="디저트,케이크,카페" />
+        <meta name="robots" content="all" />
+        <!-- 스와이퍼 -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+        />
+
+        <!-- css리셋 -->
+        <link rel="stylesheet" href="assets/css/font.css" />
+        <link rel="stylesheet" href="assets/css/reset.css" />
+        <link rel="stylesheet" href="assets/css/common.css" />
+
+        <!-- 헤더 영역 -->
+        <link rel="stylesheet" href="assets/css/header.css" />
+        <!-- 슬라이드 영역 -->
+        <link rel="stylesheet" href="assets/css/silder.css" />
+        <!-- 이미지 영역 -->
+        <link rel="stylesheet" href="assets/css/image.css" />
+        <!-- 이미지/텍스트 영역 -->
+        <link rel="stylesheet" href="assets/css/imageText.css" />
+        <!-- 카드 영역 -->
+        <link rel="stylesheet" href="assets/css/card.css" />
+        <!-- 배너 영역 -->
+        <link rel="stylesheet" href="assets/css/banner.css" />
+        <!-- 텍스트 영역 -->
+        <link rel="stylesheet" href="assets/css/text.css" />
+        <!-- 푸터 영역 -->
+        <link rel="stylesheet" href="assets/css/footer.css" />
+
+        <title>디저트 사이트만들기</title>
+
+        <!-- <style>
+            .section {
+                transform: translateY(200px);
+                opacity: 0;
+                transition: all 1s;
+            }
+            .section.show {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        </style> -->
+    </head>
+    <body>
+        <header id="header">
+            <div class="header_inner">
+                <div class="header_logo">
+                    <a href="#">Dessert<em>Site</em></a>
+                </div>
+                <nav class="header_nav">
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">STORE</a></li>
+                        <li><a href="#">SALE</a></li>
+                        <li><a href="#">EVENT</a></li>
+                    </ul>
+                </nav>
+                <div class="header_member">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+        </header>
+        <!-- header 끝 -->
+        <section id="silder_type">
+            <div class="swiper hero">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="s1">
+                            <div class="container">
+                                <div class="silde_01">
+                                    <div class="silde_text">
+                                        <span>DESSERT CAFE</span>
+                                        <h1>DESSERT TRENDS</h1>
+                                        <p>
+                                            카페와 어울리는 세상의 모든 디저트를
+                                            만나보세요!
+                                            <br />
+                                            공간의 분위기를 매력적으로 전환시켜
+                                            줄거에요!
+                                        </p>
+                                    </div>
+                                    <div class="silde_button">
+                                        <a href="#">자세히 보기</a>
+                                        <a href="#">사이트 보기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/slideImg.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="s1">
+                            <div class="container">
+                                <div class="silde_01">
+                                    <div class="silde_text">
+                                        <span>DESSERT CAFE</span>
+                                        <h1>DESSERT TRENDS</h1>
+                                        <p>
+                                            카페와 어울리는 세상의 모든 디저트를
+                                            만나보세요!
+                                            <br />
+                                            공간의 분위기를 매력적으로 전환시켜
+                                            줄거에요!
+                                        </p>
+                                    </div>
+                                    <div class="silde_button">
+                                        <a href="#">자세히 보기</a>
+                                        <a href="#">사이트 보기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/slideImg2.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="s1">
+                            <div class="container">
+                                <div class="silde_01">
+                                    <div class="silde_text">
+                                        <span>DESSERT CAFE</span>
+                                        <h1>DESSERT TRENDS</h1>
+                                        <p>
+                                            카페와 어울리는 세상의 모든 디저트를
+                                            만나보세요!
+                                            <br />
+                                            공간의 분위기를 매력적으로 전환시켜
+                                            줄거에요!
+                                        </p>
+                                    </div>
+                                    <div class="silde_button">
+                                        <a href="#">자세히 보기</a>
+                                        <a href="#">사이트 보기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="assets/img/slideImg3.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- 슬라이드 끝 -->
+        <section id="imageType">
+            <div class="container">
+                <div class="hover_wrap">
+                    <div class="txt">
+                        <h1 class="bld">
+                            프리미엄 케이크와 디저트를 만나보세요.
+                        </h1>
+                        <p>
+                            유러피언 디저트의 본질을 추구한 고급 원재료와
+                            차별화된 레시피
+                        </p>
+                    </div>
+                    <div class="hover_inner">
+                        <figcaption class="hover1">
+                            <div class="desc">
+                                <h2>프렌치크라상</h2>
+                                <p>
+                                    버터 특유의 깊은 풍미를 지닌 프랑스산 이즈니
+                                    생메르 버터를 더해, <br />겹겹이 쌓인 결
+                                    사이로 진한 버터 풍미가 촉촉하게 배어든
+                                    기본을 지켜
+                                    <br />
+                                    제대로 만든 프렌치스타일 크라상
+                                </p>
+                                <div class="imageButton">
+                                    <a href="#">자세히 보기</a>
+                                </div>
+                            </div>
+                        </figcaption>
+                        <figcaption class="hover2">
+                            <div class="desc">
+                                <h2>통곡물 호밀 깜빠뉴</h2>
+                                <p>
+                                    호밀, 귀리 , 호박씨등 건강한 곡물&씨앗
+                                    가득한 <br />고소한 풍미의 호밀 깜빠뉴
+                                </p>
+                                <div class="imageButton">
+                                    <a href="#">자세히 보기</a>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 이미지 끝 -->
+        <section id="imgeText" class="section">
+            <h1 class="blind">이미지 텍스트 유형</h1>
+            <div class="container imgeText_inner">
+                <div class="imgeText_txt">
+                    <div class="small">이미지/텍스트 유형</div>
+                    <div class="title">디저트 사이트 살펴보기</div>
+                    <div class="desc">
+                        제빵사, 파티시에, 요식업 종사자를 위한 유용한
+                        사이트입니다
+                    </div>
+                    <il class="list">
+                        <li><a href="#">&#8231;투썸플레이스 바로가기</a></li>
+                        <li><a href="#">&#8231;파리바게트 바로가기</a></li>
+                        <li><a href="#">&#8231;뚜레쥬르 바로가기</a></li>
+                        <li><a href="#">&#8231;스타벅스 바로가기</a></li>
+                        <li><a href="#">&#8231;카페베네 바로가기</a></li>
+                        <li><a href="#">&#8231;골드브라운 바로가기</a></li>
+                    </il>
+                </div>
+                <div class="imgeText_img img1">
+                    <img src="assets/img/donut01.png" alt="" />
+                    <a href="#">도넛 레시피</a>
+                </div>
+                <div class="imgeText_img img2">
+                    <img src="assets/img/donut02.png" alt="" />
+                    <a href="#">젤라또 레시피</a>
+                </div>
+            </div>
+        </section>
+        <!-- 이미지 텍스트 끝 -->
+        <section id="cardType" class="section">
+            <h2>카페, 그 이상의 문화를 만들다</h2>
+            <p>
+                투썸플레이스는 프리미엄 커피 & 디저트 카페의 리딩 브랜드로서
+                디저트 카페 문화의 차별화된 제품과 서비스를 선보일 것입니다
+            </p>
+            <div class="container card_inner">
+                <div class="card">
+                    <figure>
+                        <img src="assets/img/card01.png" alt="" />
+                    </figure>
+                    <div class="card_body">
+                        <div class="tit">내 취향이 담긴 커피</div>
+                        <div class="desc">
+                            커피 전문점조차 낯설었던 2002년, 1호점인
+                            <br />신촌점을 시작으로 투썸플레이스는 프리미엄
+                            <br />
+                            디저트 카페 브랜드로서 커피는 물론 다양한
+                            <br />디저트를 함께 즐기는 새로운..
+                        </div>
+                        <a href="#" class="btn">
+                            더 자세히 보기
+                            <span
+                                ><svg
+                                    width="55"
+                                    height="8"
+                                    viewBox="0 0 55 8"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0 3.68188V4.18188H54V3.68188V3.18188H0V3.68188ZM54.3536 4.03544C54.5488 3.84018 54.5488 3.52359 54.3536 3.32833L51.1716 0.146351C50.9763 -0.0489113 50.6597 -0.0489113 50.4645 0.146351C50.2692 0.341613 50.2692 0.658195 50.4645 0.853458L53.2929 3.68188L50.4645 6.51031C50.2692 6.70557 50.2692 7.02216 50.4645 7.21742C50.6597 7.41268 50.9763 7.41268 51.1716 7.21742L54.3536 4.03544Z"
+                                        fill="black"
+                                    /></svg
+                            ></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="assets/img/card02.png" alt="" />
+                    </figure>
+                    <div class="card_body">
+                        <div class="tit">다양한 케이크&디저트</div>
+                        <div class="desc">
+                            커피 전문점조차 낯설었던 2002년, 1호점인
+                            <br />신촌점을 시작으로 투썸플레이스는 프리미엄
+                            <br />
+                            디저트 카페 브랜드로서 커피는 물론 다양한
+                            <br />디저트를 함께 즐기는 새로운..
+                        </div>
+                        <a href="#" class="btn">
+                            더 자세히 보기
+                            <span
+                                ><svg
+                                    width="55"
+                                    height="8"
+                                    viewBox="0 0 55 8"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0 3.68188V4.18188H54V3.68188V3.18188H0V3.68188ZM54.3536 4.03544C54.5488 3.84018 54.5488 3.52359 54.3536 3.32833L51.1716 0.146351C50.9763 -0.0489113 50.6597 -0.0489113 50.4645 0.146351C50.2692 0.341613 50.2692 0.658195 50.4645 0.853458L53.2929 3.68188L50.4645 6.51031C50.2692 6.70557 50.2692 7.02216 50.4645 7.21742C50.6597 7.41268 50.9763 7.41268 51.1716 7.21742L54.3536 4.03544Z"
+                                        fill="black"
+                                    /></svg
+                            ></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="assets/img/card03.png" alt="" />
+                    </figure>
+                    <div class="card_body">
+                        <div class="tit">‘트렌디 카페 밀’ 컨셉의 델리</div>
+                        <div class="desc">
+                            커피 전문점조차 낯설었던 2002년, 1호점인
+                            <br />신촌점을 시작으로 투썸플레이스는 프리미엄
+                            <br />
+                            디저트 카페 브랜드로서 커피는 물론 다양한
+                            <br />디저트를 함께 즐기는 새로운..
+                        </div>
+                        <a href="#" class="btn">
+                            더 자세히 보기
+                            <span
+                                ><svg
+                                    width="55"
+                                    height="8"
+                                    viewBox="0 0 55 8"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0 3.68188V4.18188H54V3.68188V3.18188H0V3.68188ZM54.3536 4.03544C54.5488 3.84018 54.5488 3.52359 54.3536 3.32833L51.1716 0.146351C50.9763 -0.0489113 50.6597 -0.0489113 50.4645 0.146351C50.2692 0.341613 50.2692 0.658195 50.4645 0.853458L53.2929 3.68188L50.4645 6.51031C50.2692 6.70557 50.2692 7.02216 50.4645 7.21742C50.6597 7.41268 50.9763 7.41268 51.1716 7.21742L54.3536 4.03544Z"
+                                        fill="black"
+                                    /></svg
+                            ></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 카드 끝 -->
+        <section id="bannerType" class="section">
+            <div class="banner_inner">
+                <h2 class="blind">배너영역</h2>
+                <h3 class="title">특별함으로 물들어요</h3>
+                <p class="desc">
+                    카페와 어울리는 세상의 모든 디저트
+                    <a href="#">www.twosome.co.kr</a>
+                    <span class="small">투썸플레이스</span>
+                </p>
+            </div>
+        </section>
+        <!-- 배너 끝 -->
+        <section id="textType" class="section">
+            <span>텍스트 유형</span>
+            <h2>다체로운 베이커리 컬렉션</h2>
+            <div class="container text_inner">
+                <div class="txt t1">
+                    <div class="txt_title">딸기일까? 케이크일까?</div>
+                    <div class="txt_desc">
+                        신선한 생딸기와 부드러운 커스터드 크림이 어우러져 풍성한
+                        달콤함이 터지는 순간 올 겨울, 연말을 달콤하게 장식할
+                        베리밤을 만나보세요!
+                    </div>
+                    <a href="#" class="text_btn">더보기</a>
+                </div>
+                <div class="txt t2">
+                    <div class="txt_title">아주 보통날의 케이크</div>
+                    <div class="txt_desc">
+                        크림에, 톡톡 씹히는 딸기 과육이 어우러진 파란라벨 저당
+                        그릭요거트 케이크! 매일 먹을 수 있는 아주 보통날의
+                        케이크를 즐겨 보세요.
+                    </div>
+                    <a href="#" class="text_btn">더보기</a>
+                </div>
+                <div class="txt t3">
+                    <div class="txt_title">해피 홀리데이</div>
+                    <div class="txt_desc">
+                        바라는 대로 모든 것을 이루어 줄 NCT WISH의 뽀짝한
+                        모먼트와 다양한 케이크 & 선물을 영상에서 만나보세요!
+                    </div>
+                    <a href="#" class="text_btn">더보기</a>
+                </div>
+                <div class="txt t4">
+                    <div class="txt_title">몽생이 초코 말차 샌드</div>
+                    <div class="txt_desc">
+                        제주도 명물 말 캐릭터를 새긴 쿠키 바삭한 초코쿠키에
+                        제주말차로 만든 가나슈 크림과 진한 브라우니&고소한
+                        호두가 어우러진 샌드 쿠키!
+                    </div>
+                    <a href="#" class="text_btn">더보기</a>
+                </div>
+                <div class="txt t5">
+                    <div class="txt_title">티라미수 케이크 등장!</div>
+                    <div class="txt_desc">
+                        2024.08.28 티라미수 케이크 등장! 역대급 달콤한 콜라보가
+                        찾아옵니다. 김성철이 선택한 티라미수 케이크가
+                        궁금하다면?
+                    </div>
+                    <a href="#" class="text_btn">더보기</a>
+                </div>
+                <div class="txt t6">
+                    <div class="txt_title">팀코리아 명예 빵집</div>
+                    <div class="txt_desc">
+                        응원에 이렇게 진심이었다고요? 팀코리아를 향한 응원과
+                        격려의 마음을 모두 모아 파리 현지에서 자랑스러운
+                        선수들을 응원한 파바!
+                    </div>
+                    <a href="#" class="text_btn">더보기</a>
+                </div>
+            </div>
+        </section>
+        <!-- 텍스트 끝 -->
+        <footer id="footer" class="section">
+            <h2 class="blind">푸터영역</h2>
+            <div class="container footer_inner">
+                <div>
+                    <h2>투썸플레이스 정보</h2>
+                    <ul>
+                        <li><a htrf="#">브랜드 소개</a></li>
+                        <li><a htrf="#">회사 소개</a></li>
+                        <li><a htrf="#">창업안내</a></li>
+                        <li><a htrf="#">주문 및 문의</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>파리바게트 정보</h2>
+                    <ul>
+                        <li><a htrf="#">브랜드 소개</a></li>
+                        <li><a htrf="#">회사 소개</a></li>
+                        <li><a htrf="#">창업안내</a></li>
+                        <li><a htrf="#">주문 및 문의</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>뚜레쥬르 정보</h2>
+                    <ul>
+                        <li><a htrf="#">브랜드 소개</a></li>
+                        <li><a htrf="#">회사 소개</a></li>
+                        <li><a htrf="#">창업안내</a></li>
+                        <li><a htrf="#">주문 및 문의</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>투썸플레이스 정보</h2>
+                    <ul>
+                        <li><a htrf="#">브랜드 소개</a></li>
+                        <li><a htrf="#">회사 소개</a></li>
+                        <li><a htrf="#">창업안내</a></li>
+                        <li><a htrf="#">주문 및 문의</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>투썸플레이스 정보</h2>
+                    <ul>
+                        <li><a htrf="#">브랜드 소개</a></li>
+                        <li><a htrf="#">회사 소개</a></li>
+                        <li><a htrf="#">창업안내</a></li>
+                        <li><a htrf="#">주문 및 문의</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>투썸플레이스 정보</h2>
+                    <ul>
+                        <li><a htrf="#">브랜드 소개</a></li>
+                        <li><a htrf="#">회사 소개</a></li>
+                        <li><a htrf="#">창업안내</a></li>
+                        <li><a htrf="#">주문 및 문의</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                2021 A TWOSOME PLACE Co., LTD. <br />All Rights Reserved.
+            </div>
+        </footer>
+        <!-- 푸터 끝 -->
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+        <script src="assets/js/swiper.js"></script>
+
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>
